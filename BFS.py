@@ -1,4 +1,4 @@
-def dfs_iterative(graph, start):
+def bfs_iterative(graph, start):
     queue = [start] #start
     path = [] #empty
     # print(stack[0])
@@ -18,4 +18,4 @@ adjacency_matrix = {'A': ['B', 'C','D'], 'B': ['E','F'],'C':['G','H'],'D':['I'],
                     'G':['L'], 'H': [], 'I': ['M'],
                     'j': [], 'k': ['N'],'L':[],'M':[],'N':[]}
 
-print(dfs_iterative(adjacency_matrix,'A'))
+print(bfs_iterative(adjacency_matrix,'A'))
